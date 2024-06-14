@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="big_padding">16dp</dimen>
+    <string name="app_name">MockTest2</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_name">Course Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_of_credits">NOC</string>
+    <string name="time_of_lecture">Time of Lecture</string>
+    <style name="Base.Theme.MockTest2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        
+        
+    </style>
+    <style name="Theme.MockTest2" parent="Base.Theme.MockTest2"/>
+</resources>

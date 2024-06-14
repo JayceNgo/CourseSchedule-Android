@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MockTest2</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="number_of_credits">NOC</string>
+    <string name="time_of_lecture">Time of Lecture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

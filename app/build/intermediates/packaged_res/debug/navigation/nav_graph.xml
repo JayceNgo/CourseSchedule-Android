@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/courseScheduleFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/courseScheduleFragment"
+        android:name="com.example.mocktest2.CourseScheduleFragment"
+        android:label="fragment_course_schedule"
+        tools:layout="@layout/fragment_course_schedule" >
+
+        <action
+            android:id="@+id/action_courseScheduleFragment_to_detailCourseFragment"
+            app:destination="@id/detailCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailCourseFragment"
+        android:name="com.example.mocktest2.DetailCourseFragment"
+        android:label="fragment_detail_course"
+        tools:layout="@layout/fragment_detail_course">
+
+        <argument android:name="courseName"
+            app:argType="string"/>
+    </fragment>
+
+</navigation>
